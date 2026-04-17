@@ -1,0 +1,13 @@
+def suma_con_poder(a, b):
+    """Esta función suma dos números"""
+    return a + b
+
+
+# Programa principal
+print("=== SUMA CON PODER ===")
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+
+resultado = suma_con_poder(num1, num2)
+
+print(f"La suma de {num1} + {num2} es: {resultado}") 
