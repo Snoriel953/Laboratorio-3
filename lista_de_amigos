@@ -1,0 +1,5 @@
+amigos = ["Ana", "Carlos", "María", "José", "Lucía"]   # Lista con 5 nombres
+
+print("=== MIS AMIGOS ===")
+for i, amigo in enumerate(amigos, 1):
+    print(f"{i}. {amigo}")
